@@ -1,0 +1,130 @@
+.section-top{
+    display: flex;
+    justify-content: flex-start;
+    background: #141414;
+}
+
+.section-top__main{
+    width: 978px;
+    height: 659px;
+    background: url(../assets/images/section-top/section-top-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.socials-list-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 68px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.socials-list-item{
+    transition: 0.4s;
+    padding: 0px 18px;
+    height: 68px;
+    transition: 0.4s;
+}
+
+.socials-list-item:hover{
+    background: #99823D;
+}
+
+.socials-list-item:first-child{
+    padding-left: 0px;
+}
+
+.section-top__socials-list{
+    background: #EBEBEB;
+    display: flex;
+    align-items: center;
+}
+
+.section-top__content{
+    position: relative;
+}
+
+.section-top__intro{
+    padding: 68px;
+    background: #fff;
+    position: absolute;
+    top: 68px;
+    right: 68px;
+    z-index: 10;
+}
+
+.section-top__intro-subtitle{
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #99823D;
+}
+
+.section-top__intro-title{
+    margin-top: 2px;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 67px;
+    color: #141414;
+    max-width: 417px;
+}
+
+.section-top__intro-descr{
+    margin-top: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #141414;
+    max-width: 435px;
+}
+
+.intro__links-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    width: 216px;
+    background: #141414;
+    transition: 0.4s;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.intro__links-link:hover{
+    background: #99823D;
+}
+
+.section-top__intro__links{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 449px;
+}
+
+.section-top__intro__decoration{
+    background: #99823D;
+    width: 489px;
+    height: 329px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

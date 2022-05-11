@@ -12,6 +12,17 @@
     z-index: 10;
 }
 
+.burger-btn{
+    width: 30px;
+    height: 30px;
+    background: url(../assets/images/icons/burger.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    display: none;
+}
+
 .header__nav-menu__list-link{
     font-family: 'Open Sans';
     font-style: normal;
@@ -46,4 +57,41 @@
 .header{
     background: #141414;
     padding: 17px 0px;
+    position: relative;
+}
+
+.header__nav.active{
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+}
+
+@media(max-width: 680px){
+    .header__nav{
+        position: absolute;
+        z-index: 100;
+        top: 47px;
+        right: 0;
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+        transition: 0.4s;
+    }
+
+    .header__nav-menu__list{
+        flex-direction: column;
+        background: #141414;
+    }
+
+    .burger-btn{
+        width: 30px;
+        height: 30px;
+        background: url(../assets/images/icons/burger.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+        display: block;
+        margin-left: 50px;
+    }
 }

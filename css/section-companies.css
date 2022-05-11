@@ -1,0 +1,48 @@
+.section-companies__companies__list{
+    display: flex;
+    align-items: center;
+    margin-left: -117px;
+    margin-top: -20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.companies__list-item{
+    position: relative;
+}
+
+.companies__list-item:before{
+    content: '';
+    width: 9px;
+    height: 9px;
+    background: #99823D;
+    position: absolute;
+    top: 30px;
+    left: 52px;
+}
+
+.companies__list-item:first-child:before{
+    content: none;
+}
+
+.companies__list-item-logo{
+    margin-left: 117px;
+    margin-top: 20px;
+}
+
+.section-companies{
+    background: #EBEBEB;
+    padding: 68px 0px 135px 0px;
+}
+
+@media(max-width: 385px){
+    .companies__list-item:first-child:before{
+        content: '';
+        width: 9px;
+        height: 9px;
+        background: #99823D;
+        position: absolute;
+        top: 30px;
+        left: 52px;
+    }
+}

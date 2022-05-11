@@ -167,3 +167,19 @@
         margin-top: 30px;
     }
 }
+
+@media(max-width: 503px){
+    .indicators__list{
+        justify-content: center;
+    }
+    
+    .indicators__list-item:last-child::before{
+        content: '';
+        background: #99823D;
+        width: 9px;
+        height: 9px;
+        position: absolute;
+        right: -72px;
+        top: 20px;
+    }
+}

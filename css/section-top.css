@@ -61,6 +61,8 @@
     z-index: 10;
     width: 584px;
     height: 455px;
+    transition: 0.6s;
+    opacity: 0;
 }
 
 .section-top__intro-subtitle{
@@ -153,10 +155,6 @@
 }
 
 @media(max-width: 680px){
-    .header__nav{
-        display: none;
-    }
-
     .intro__links-link{
         width: 150px;
     }

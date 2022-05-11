@@ -1,0 +1,94 @@
+.section-services__header{
+    text-align: center;
+    max-width: 801px;
+    margin: 0 auto;
+}
+
+.section-services-subtitle{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #99823D;
+}
+
+.section-services-title{
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 53px;
+    color: #141414;
+    margin-top: 5px;
+}
+
+.services__list-item{
+    width: 391px;
+    padding: 34px 65px 31px 34px;
+}
+
+.services__list-item__info{
+    display: flex;
+    align-items: center;
+}
+
+.services__list-item-title{
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #141414;
+    margin-left: 17px;
+}
+
+.services__list-item-descr{
+    margin-top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #141414;
+}
+
+.section-services__services__list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-services__link{
+    display: inline-block;
+    background: #99823D;
+    width: 392px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 116px;
+}
+
+.section-services{
+    padding: 138px 0px 107px 0px;
+}
+
+@media(max-width: 630px){
+    .section-services__link{
+        width: 300px;
+        height: 58px;
+    }
+}

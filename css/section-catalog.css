@@ -1,0 +1,90 @@
+.catalog__list-item{
+    width: 412px;
+    position: relative;
+}
+
+.catalog__list-item__info{
+    width: 378px;
+    background: #000;
+    padding: 15px 0px 26px 0px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.catalog__list-item-title{
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #fff
+}
+
+.catalog__list-item-img{
+    margin: 0;
+    padding: 0;
+}
+
+.catalog__list-item__image{
+    height: 275px;
+}
+
+.catalog__list-item__category{
+    width: 206px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    background: #99823D;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.catalog__list-item__category-name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.catalog__list-item{
+    margin-left: 34px;
+    margin-top: 30px;
+}
+
+.catalog__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -34px;
+    margin-top: -30px;
+}
+
+.section-catalog{
+    margin-top: -160px;
+}
+
+@media(max-width: 630px){
+    .catalog__list-item{
+        width: 300px;
+    }
+
+    .catalog__list-item__info{
+        width: 278px;
+    }
+
+    .catalog__list-item-img{
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .catalog__list-item__image{
+        height: 200px;
+    }
+}

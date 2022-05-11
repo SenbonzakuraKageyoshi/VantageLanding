@@ -84,6 +84,10 @@
 }
 
 
+.section-about__container{
+    padding: 0px 60px 0px 60px;
+}
+
 .section-about__content{
     display: flex;
     align-items: center;
@@ -138,6 +142,11 @@
 
 .section-about__indicators{
     margin-top: 58px;
+}
+
+.section-about{
+    padding: 135px 0px 294px 0px;
+    background: #EBEBEB;
 }
 
 @media(max-width: 1000px){
